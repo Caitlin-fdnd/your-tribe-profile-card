@@ -25,14 +25,14 @@ body{
   max-width: 50em;
   min-width: 45em;
   border-radius: 15px;
-  background-image:./url(TFML7661.png);
+  background-image:url(./TFML7661.png);
   background-size: 730px 500px;
   background-position: center;
   Background-repeat: no-repeat;
   box-shadow: 0 0 20px 20px #CEBEB8;
   border: solid 70px transparent;
   padding: 15px;
-  border-image:./url(TYYI6468.png) 300;
+  border-image:url(./TYYI6468.png) 300;
   border-image-outset: 28px;
 }
 
