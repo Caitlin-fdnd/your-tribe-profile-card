@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+  height: 100vh;
+}
+
+body:has(.profile-card-example) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -;
+  color: #E2DEAD;
+}
+article.profile-card-example {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 20px;
+  max-width: 25em;
+  min-width: 20em;
+  border-radius: 15px;
+  background: #17172C;
+  box-shadow: 0 0 20px 20px #CEBEB8;
+  transition: .800s;
+}
